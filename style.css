@@ -1,0 +1,52 @@
+/* normalitzem css */
+@import "modern-normalize";
+root {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+/* importem fonts */
+/* @font-face { */
+/*     font-family: 'Norse'; */
+/*     src: url('fonts/Norse-Bold.woff2') format('woff2'); */
+/*     font-weight: bold; */
+/*     font-style: normal; */
+/*     font-display: swap; */
+/* } */
+
+/* disseny de la pàgina */
+* {
+
+ border: 1px solid red;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1ft 4ft;
+    grid-template-rows: 1ft 5ft;
+}
+
+.header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
